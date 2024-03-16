@@ -45,21 +45,7 @@ def plot_bezier_curve(points, iterations):
     plt.title('Bezier Curve Visualization')
     plt.grid(True)
     plt.show()
-
-def plot_bezier_curve(points, iterations):
-    curve_points = bezier_curve(points, iterations)
-    curve_points = np.array(curve_points)
-    points = np.array(points)
-
-    plt.plot(curve_points[:, 0], curve_points[:, 1], label='Bezier Curve', color='blue')
-    plt.scatter(points[:, 0], points[:, 1], label='Control Points', color='red')
-    plt.legend()
-    plt.xlabel('X')
-    plt.ylabel('Y')
-    plt.title('Bezier Curve Visualization')
-    plt.grid(True)
-    plt.show()
-
+    
 def main():
     points = []
     
