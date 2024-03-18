@@ -139,7 +139,7 @@ def bezier_curve(points,iterations, isleft,iter):
             left = [points[0]]
         for i in range(len(new_array)//2+2):
             left.append(new_array[i]) 
-        if isleft == 1:
+        if iterations == 1 and isleft == 1:
             left.pop(0)
         print('left')
         print(left)
