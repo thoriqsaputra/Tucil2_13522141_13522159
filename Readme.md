@@ -17,8 +17,8 @@ Program ini ditulis untuk keperluan pembelajaran dan demonstrasi algoritma pembe
 
 ## Requirement dan Instalasi
 
-1. tkinter
-2. matplotlib
+- tkinter
+- matplotlib
 
 Dapat melakukan instalasi kedua module tersebut secara bersamaan dengan change directory ke folder project lalu menjalankan command:
 ``` bash
@@ -59,7 +59,5 @@ Iterasi lebih dari 20 akan menyebabkan GUI untuk freeze jadi saran untuk menungg
 
 ## Author
 
-Ahmad Thoriq Saputra
-13522141
-Rafif Ardhinto Ichwantoro
-13522159
+- Ahmad Thoriq Saputra (13522141)
+- Rafif Ardhinto Ichwantoro (13522159)
