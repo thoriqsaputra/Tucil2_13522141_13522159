@@ -605,7 +605,7 @@ canvas3.create_text(
 )
 
 algorithm_var = StringVar()
-algorithm_var.set("Divide and Conquer")  # Default value
+algorithm_var.set("Divide and Conquer")
 algorithm_combobox = Combobox(
     frame3,
     values=["Divide and Conquer", "Brute Force"],
