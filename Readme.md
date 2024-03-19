@@ -21,7 +21,9 @@ Program ini ditulis untuk keperluan pembelajaran dan demonstrasi algoritma pembe
 2. matplotlib
 
 Dapat melakukan instalasi kedua module tersebut secara bersamaan dengan change directory ke folder project lalu menjalankan command:
-`pip install -r requirements.txt`
+``` bash
+pip install -r requirements.txt
+```
 
 ## Cara Menjalankan Program
 
@@ -29,10 +31,14 @@ Jika program ini perlu dikompilasi, ikuti langkah-langkah berikut:
 
 1. Buka terminal atau command prompt.
 2. Pindah ke direktori folder project lalu lakukan
-`cd bin`
+```bash
+cd bin
+```
 untuk pindah direktori ke folder src
 3. Jalankan perintah kompilasi berikut 
-`./run-program`.
+```bash
+./run-program
+```
 4. Tunggu sebentar dan GUI akan terbuka
 
 ## Cara Menggunakan Program
