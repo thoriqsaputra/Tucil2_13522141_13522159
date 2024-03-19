@@ -5,7 +5,7 @@ import time
 def midpoint(p0, p1):
     return [(p0[0]+p1[0])/2, (p0[1]+p1[1])/2]
 
-def bezier_curve(points,iterations, isleft,iter):
+def bezier_curve_dncG(points,iterations, isleft,iter):
     if iterations == 0 and isleft == 0:
         points = [points[i] for i in range(len(points)) if i % 2 == 0]
         return points
@@ -40,5 +40,5 @@ def bezier_curve(points,iterations, isleft,iter):
             right.pop(0)
         right.append(points[-1])
 
-        return bezier_curve(left, iterations-1,0,iter+1) + bezier_curve(right, iterations-1,1,iter+1)
+        return bezier_curve_dncG(left, iterations-1,0,iter+1) + bezier_curve_dncG(right, iterations-1,1,iter+1)
         
